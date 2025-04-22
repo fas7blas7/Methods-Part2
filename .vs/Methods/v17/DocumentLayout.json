@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C961B97A-B63C-412B-BEA0-BB08DE285BD2}|6-Orders\\6-Orders.csproj|c:\\users\\skyli\\desktop\\programming fundamentals and unit testing - january 2025\\11-loops\\methods\\6-orders\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C961B97A-B63C-412B-BEA0-BB08DE285BD2}|6-Orders\\6-Orders.csproj|solutionrelative:6-orders\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0665394F-437F-453A-8122-8288596FFDDA}|5-MultiplyEvenByOdd\\5-MultiplyEvenByOdd.csproj|c:\\users\\skyli\\desktop\\programming fundamentals and unit testing - january 2025\\11-loops\\methods\\5-multiplyevenbyodd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0665394F-437F-453A-8122-8288596FFDDA}|5-MultiplyEvenByOdd\\5-MultiplyEvenByOdd.csproj|solutionrelative:5-multiplyevenbyodd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C4E1944-5178-4663-AB86-D1DBD6F365CB}|4-PasswordValidator\\4-PasswordValidator.csproj|c:\\users\\skyli\\desktop\\programming fundamentals and unit testing - january 2025\\11-loops\\methods\\4-passwordvalidator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C4E1944-5178-4663-AB86-D1DBD6F365CB}|4-PasswordValidator\\4-PasswordValidator.csproj|solutionrelative:4-passwordvalidator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBE0C22D-6198-4A96-B99C-1B291B0A04F9}|3-Multiplication-Sign\\3-Multiplication-Sign.csproj|c:\\users\\skyli\\desktop\\programming fundamentals and unit testing - january 2025\\11-loops\\methods\\3-multiplication-sign\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBE0C22D-6198-4A96-B99C-1B291B0A04F9}|3-Multiplication-Sign\\3-Multiplication-Sign.csproj|solutionrelative:3-multiplication-sign\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE748EE6-6416-4988-947F-E303538FDDE1}|2-Factoreal\\2-Factoreal.csproj|c:\\users\\skyli\\desktop\\programming fundamentals and unit testing - january 2025\\11-loops\\methods\\2-factoreal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE748EE6-6416-4988-947F-E303538FDDE1}|2-Factoreal\\2-Factoreal.csproj|solutionrelative:2-factoreal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E310B318-C481-48AD-84D6-6F356ADD0092}|1-VowelsCount\\1-VowelsCount.csproj|c:\\users\\skyli\\desktop\\programming fundamentals and unit testing - january 2025\\11-loops\\methods\\1-vowelscount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E310B318-C481-48AD-84D6-6F356ADD0092}|1-VowelsCount\\1-VowelsCount.csproj|solutionrelative:1-vowelscount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\6-Orders\\Program.cs",
+              "RelativeDocumentMoniker": "6-Orders\\Program.cs",
+              "ToolTip": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\6-Orders\\Program.cs",
+              "RelativeToolTip": "6-Orders\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:05:13.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\5-MultiplyEvenByOdd\\Program.cs",
+              "RelativeDocumentMoniker": "5-MultiplyEvenByOdd\\Program.cs",
+              "ToolTip": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\5-MultiplyEvenByOdd\\Program.cs",
+              "RelativeToolTip": "5-MultiplyEvenByOdd\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:04:00.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\4-PasswordValidator\\Program.cs",
+              "RelativeDocumentMoniker": "4-PasswordValidator\\Program.cs",
+              "ToolTip": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\4-PasswordValidator\\Program.cs",
+              "RelativeToolTip": "4-PasswordValidator\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:03:08.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\3-Multiplication-Sign\\Program.cs",
+              "RelativeDocumentMoniker": "3-Multiplication-Sign\\Program.cs",
+              "ToolTip": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\3-Multiplication-Sign\\Program.cs",
+              "RelativeToolTip": "3-Multiplication-Sign\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:02:01.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\2-Factoreal\\Program.cs",
+              "RelativeDocumentMoniker": "2-Factoreal\\Program.cs",
+              "ToolTip": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\2-Factoreal\\Program.cs",
+              "RelativeToolTip": "2-Factoreal\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:00:45.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\1-VowelsCount\\Program.cs",
+              "RelativeDocumentMoniker": "1-VowelsCount\\Program.cs",
+              "ToolTip": "C:\\Users\\skyli\\Desktop\\Programming Fundamentals and Unit Testing - January 2025\\11-LOOPS\\Methods\\1-VowelsCount\\Program.cs",
+              "RelativeToolTip": "1-VowelsCount\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T14:59:19.669Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 144,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 279,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
