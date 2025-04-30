@@ -159,22 +159,105 @@ namespace _3_Multiplication_Sign
         }
     }
 }
+```
+4️⃣ PasswordValidator 🔐  
+Namespace: _4_PasswordValidator  
+📌 Description:  
+Reads a password string and validates it by checking if:
+- It is between 6 and 10 characters long
+- It contains only letters and digits
+- It has at least 2 digits
 
+📝 Code:
+```csharp
+namespace _4_PasswordValidator
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string password = Console.ReadLine();
+            string result = ValdiatePassword(password);
+            Console.WriteLine(result);
+        }
+
+        static string ValdiatePassword(string password)
+        {
+            string result = "";
+            if (!IsValidLength(password))
+            {
+                result += $"Password must be between 6 and 10 characters" + Environment.NewLine;
+            }
+
+            if (!IsConsistsOfLettersAndDigits(password))
+            {
+                result += "Password must consist only of letters and digits" + Environment.NewLine;
+            }
+
+            if (!IsValidDigitsCount(password))
+            {
+                result += "Password must have at least 2 digits" + Environment.NewLine;
+            }
+
+            if (result == "")
+            {
+                result = "Password is valid";
+            }
+
+            return result;
+        }
+
+        private static bool IsConsistsOfLettersAndDigits(string password)
+        {
+            foreach (char letter in password)
+            {
+                if (!char.IsLetterOrDigit(letter))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        private static bool IsValidDigitsCount(string password)
+        {
+            int digits = 0;
+            foreach (char letter in password)
+            {
+                if (char.IsDigit(letter))
+                {
+                    digits++;
+                }
+
+                if (digits == 2)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private static bool IsValidLength(string password)
+        {
+            return password.Length >= 6 && password.Length <= 10;
+        }
+    }
+}
+```
 📅 Updated Commit Progress:
 
-📅 Current Progress: 396 commits  
-📊 Progress Bar:  
-██████████████████████████████░ 79.2% (396/500)
+📅 Current Progress: 398 commits
+📊 Progress Bar:
+███████████████████████████████░ 79.6% (398/500)
 
-📌 Milestones:  
-✅ 100 commits  
-✅ 200 commits  
-✅ 300 commits  
-🔲 400 commits  
-🔲 500 commits (🎉)  
-🎯 Commit Progress Tracker  
+📌 Milestones:
+✅ 100 commits
+✅ 200 commits
+✅ 300 commits
+🔲 400 commits
+🔲 500 commits (🎉)
+🎯 Commit Progress Tracker
 
-🚀 Goal: 500 commits in 2025  
-📅 Current Progress: 396 commits  
 🚀 Goal: 500 commits in 2025
-📅 Current Progress: 394 commits
