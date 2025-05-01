@@ -246,18 +246,84 @@ namespace _4_PasswordValidator
     }
 }
 ```
-📅 Updated Commit Progress:
+5️⃣ MultiplyEvenByOdd ✖️➕  
+Namespace: _5_MultiplyEvenByOdd  
+📌 Description:  
+Reads an integer and outputs the product of the sum of its even digits and the sum of its odd digits.
 
-📅 Current Progress: 398 commits
-📊 Progress Bar:
-███████████████████████████████░ 79.6% (398/500)
+📝 Code:
+```csharp
+namespace _5_MultiplyEvenByOdd
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int number = int.Parse(Console.ReadLine());
+            int result = GetMultipleOfEvenAndOdds(Math.Abs(number));
+            Console.WriteLine(result);
+        }
 
-📌 Milestones:
-✅ 100 commits
-✅ 200 commits
-✅ 300 commits
-🔲 400 commits
-🔲 500 commits (🎉)
+        private static int GetMultipleOfEvenAndOdds(int number)
+        {
+            int sumOfEvenDigits = GetSumOfEvenDigits(number);
+            int sumOfOddDigits = GetSumOfOddDigits(number);
+            return sumOfEvenDigits * sumOfOddDigits;
+        }
+
+        private static int GetSumOfOddDigits(int number)
+        {
+            int sum = 0;
+            while (number > 0)
+            {
+                int lastDigit = number % 10;
+                if (lastDigit % 2 == 1)
+                {
+                    sum += lastDigit;
+                }
+
+                number /= 10;
+            }
+
+            return sum;
+        }
+
+        private static int GetSumOfEvenDigits(int number)
+        {
+            int sum = 0;
+            while (number > 0)
+            {
+                int lastDigit = number % 10;
+                if (lastDigit % 2 == 0)
+                {
+                    sum += lastDigit;
+                }
+
+                number /= 10;
+            }
+
+            return sum;
+        }
+    }
+}
+
+```
+
+---
+
+**📅 Commit Progress Update:**
+
+📅 Current Progress: 400 commits  
+📊 Progress Bar:  
+████████████████████████████████ 80.0% (400/500)
+
+📌 Milestones:  
+✅ 100 commits  
+✅ 200 commits  
+✅ 300 commits  
+✅ 400 commits  
+🔲 500 commits (🎉)  
 🎯 Commit Progress Tracker
 
+🚀 Goal: 500 commits in 2025
 🚀 Goal: 500 commits in 2025
