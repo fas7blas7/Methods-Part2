@@ -309,21 +309,78 @@ namespace _5_MultiplyEvenByOdd
 
 ```
 
----
+6️⃣ Orders 🛒  
+Namespace: _06_Orders  
+📌 Description:  
+Reads a product and quantity, then calculates and prints the total price using two methods with switch and switch expression.
 
-**📅 Commit Progress Update:**
+📝 Code:
+```csharp
+namespace _06_Orders
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string product = Console.ReadLine();
+            int quantity = int.Parse(Console.ReadLine());
+            PrintResult(product, quantity);
+        }
 
-📅 Current Progress: 400 commits  
-📊 Progress Bar:  
-████████████████████████████████ 80.0% (400/500)
+        static void PrintResult(string product, int quantity)
+        {
+            double result2 = GetTotalOrderPrice(product, quantity);
+            double result = GetTotalOrderPrice2(product, quantity);
+            Console.WriteLine($"{result:F2}");
+        }
 
-📌 Milestones:  
-✅ 100 commits  
-✅ 200 commits  
-✅ 300 commits  
-✅ 400 commits  
-🔲 500 commits (🎉)  
+        static double GetTotalOrderPrice(string product, int quantity)
+        {
+            double price = 0;
+            switch (product)
+            {
+                case "coffee":
+                    price = 1.50;
+                    break;
+                case "water":
+                    price = 1.00;
+                    break;
+                case "coke":
+                    price = 1.40;
+                    break;
+                case "snacks":
+                    price = 2.00;
+                    break;
+            }
+
+            return price * quantity;
+        }
+
+        static double GetTotalOrderPrice2(string product, int quantity) =>
+            product switch
+            {
+                "coffee" => quantity * 1.50,
+                "water" => quantity * 1.00,
+                "coke" => quantity * 1.40,
+                "snacks" => quantity * 2.00
+            };
+    }
+}
+
+```
+
+📅 Commit Progress Update:
+
+📅 Current Progress: 402 commits
+📊 Progress Bar:
+████████████████████████████████▏80.4% (402/500)
+
+📌 Milestones:
+✅ 100 commits
+✅ 200 commits
+✅ 300 commits
+✅ 400 commits
+🔲 500 commits (🎉)
 🎯 Commit Progress Tracker
 
-🚀 Goal: 500 commits in 2025
 🚀 Goal: 500 commits in 2025
