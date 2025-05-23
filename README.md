@@ -367,20 +367,64 @@ namespace _06_Orders
     }
 }
 
+✅ New Task Entry:
+markdown
+Copy
+Edit
+7️⃣ TopIntegers 🔝  
+Namespace: _07.TopIntegers  
+📌 Description:  
+Reads a sequence of integers and prints all top integers (an integer is top if it is greater than all elements to its right).
+
+📝 Code:
+```csharp
+namespace _07.TopIntegers
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = Console.ReadLine()
+               .Split()
+               .Select(int.Parse)
+               .ToArray();
+
+            // 5 2 8
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                int currentNumber = numbers[i]; // 5
+                bool isTopNumber = true;
+                for (int j = i + 1; j < numbers.Length; j++)
+                {
+                    int nextNumber = numbers[j]; // 2
+                    if (currentNumber <= nextNumber)
+                    {
+                        isTopNumber = false;
+                        break;
+                    }
+                }
+
+                if (isTopNumber)
+                {
+                    Console.Write($"{currentNumber} ");
+                }
+            }
+        }
+    }
+}
+
 ```
-
 📅 Commit Progress Update:
+📅 Current Progress: 423 commits  
+📊 Progress Bar:  
+██████████████████████████████████████▊84.6% (423/500)
 
-📅 Current Progress: 402 commits
-📊 Progress Bar:
-████████████████████████████████▏80.4% (402/500)
-
-📌 Milestones:
-✅ 100 commits
-✅ 200 commits
-✅ 300 commits
-✅ 400 commits
+📌 Milestones:  
+✅ 100 commits  
+✅ 200 commits  
+✅ 300 commits  
+✅ 400 commits  
 🔲 500 commits (🎉)
-🎯 Commit Progress Tracker
 
+🎯 Commit Progress Tracker  
 🚀 Goal: 500 commits in 2025
